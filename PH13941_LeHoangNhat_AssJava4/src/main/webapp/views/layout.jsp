@@ -1,0 +1,182 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Hourse Software</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/fontAwesome.css">
+        <link rel="stylesheet" href="../css/hero-slider.css">
+        <link rel="stylesheet" href="../css/owl-carousel.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/lightbox.css">
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+ <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                
+                    <a href="#" class="navbar-brand scroll-top">
+
+                        <em>Hourse</em>-Software
+                    </a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Trang chủ</a></li>
+                        
+                        <li><a href="#" class="scroll-link" data-id="about">Về chúng tôi</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">Danh mục</a></li>
+                        <li><a href="#" class="scroll-link" data-id="blog">Sản phẩm</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact-us">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
+
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+
+            <div class="text-content">
+                <h2><em>Hourse</em> <span>Software</span> </h2>
+                <p>𝑯𝒐𝒓𝒔𝒆 𝑺𝒐𝒇𝒕𝒘𝒂𝒓𝒆 đ𝑢̛𝑜̛̣𝑐 𝑏𝑖𝑒̂́𝑡 đ𝑒̂́𝑛 𝑣𝑜̛́𝑖 𝑠𝑢̛̣ ℎ𝑜̛̣𝑝 𝑙𝑢̛̣𝑐 𝑚𝑎̣𝑛ℎ 𝑚𝑒̃ 𝑐𝑢̉𝑎 𝑛ℎ𝑢̛̃𝑛𝑔 𝑐ℎ𝑢́ 𝑛𝑔𝑢̛̣𝑎 𝑛𝑎̆𝑛𝑔 đ𝑜̣̂𝑛𝑔 . 𝐿𝑢𝑜̂𝑛 𝑚𝑎𝑛𝑔 𝑡𝑟𝑜𝑛𝑔 𝑚𝑖̀𝑛ℎ 𝑛ℎ𝑢̛̃𝑛𝑔 𝑡𝑜̂́ 𝑐ℎ𝑎̂́𝑡 𝑐𝑢̉𝑎 𝑡𝑢𝑜̂̉𝑖 𝑡𝑟𝑒̉ : “𝑇ℎ𝑎́𝑜 𝑣𝑎́𝑡, 𝑛ℎ𝑖𝑒̣̂𝑡 𝑡𝑖̀𝑛ℎ, 𝑑𝑎́𝑚 𝑛𝑔ℎ𝑖̃ 𝑑𝑎́𝑚 𝑙𝑎̀𝑚!”</p>
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link" data-id="about">Bắt đầu</a>
+
+                </div>
+                <!-- <img src="img/LOGO.jpg" alt=""width="7%"> -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about" class="page-section " >
+        <div class="container">
+            <div class="row " >
+             <jsp:include page="${ view }"></jsp:include>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Bán quần áo là bán cái đẹp nhưng người bán sẽ không bớt đẹp còn người mua thì đẹp hơn :D ”</p>
+                                <h4>Lê Hoàng Nhất</h4>
+                                <span>Chủ tịch H-soft</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Học cách yêu bản thân, đơn giản là mua đồ mới sau đó thưởng thức một hình ảnh mình thật xinh đẹp, thật ngầu. Tại sao không? Hãy để chúng mình tư vấn cho bạn nhé! ”</p>
+                                <h4>Bùi Quang Hiếu</h4>
+                                <span>Giám đốc nghệ thuật</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Em không phải cô gái mộng mer , nhưng em vẫn có thể đẹp như nàng thơ với những mẫu váy xinh xắn 👗, lấy cảm hứng từ Đà Lạt mộng mơ! ”</p>
+                                <h4>Lã văn thọ</h4>
+                                <span>Nhà sáng lập</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Một buổi sớm mùa Hè, một set đồ với chất voan mềm mịn phối với quần kaki thô mỏng nhẹ, đơn giản mà sao dễ chịu, yêu đời đến thế! ”</p>
+                                <h4>Vũ Thị Mai Lan</h4>
+                                <span>Nhân viên phòng SEO</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Đừng để hết Hè mà còn chưa mặc tank-top 👗được lần nào nhé các bạn ơi! Vừa trẻ trung lại dễ mix đồ, mặc với sooc jean hay giấu quần đều được đó ạ. Đồ unisex nên nam nữ đều mặc đẹp lắm í! ”</p>
+                                <h4>Nguyễn Thị Hoa</h4>
+                                <span>Nhân viên phòng marketing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="col-md-4 ">
+                        <img src="../img/LOGO.jpg" alt=""width="" >
+                        </div>
+                    <div class="col-md-8 logo">
+                        <a class="logo-ft scroll-top" href="#"><em>H</em>-Soft</a>
+                        <p>Fanpage: <a href="https://www.facebook.com/hsoftteam.002">Hourse software team</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="location">
+                        <h4>Vị trí</h4>
+                        <ul>
+                            <li>225 Phuong Canh, <br>Nam Từ Liêm, Hà nội</li>
+                            <li>Trịnh Văn Bô <br>Nam Từ Liêm, Hà Nội</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>Thông tin thêm</h4>
+                        <ul>
+                            <li><em>Phone</em>: 0392627200</li>
+                            <li><em>Email</em>: hsoft@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="connect-us">
+                        <h4>Giao lưu với chung tôi tại</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="../js/vendor/bootstrap.min.js"></script>
+
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
